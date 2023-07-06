@@ -3,7 +3,7 @@
 
 just run the MAIN.m to get a result for one region, one ssp scenario  
 run the MAIN_ALL.m to predict the population for all areas  
-run the MAIN_CLUSTER.m  with parellel computing  
+run the MAIN_CLUSTER.m  with HPC Clusters
 
 -------------------------
 default setting ：  
@@ -11,7 +11,7 @@ default setting ：
 regions：2 (change n for more)  
 SSP:2 (change i for more)  
 decades：2 (change t for more)  
-Monte Carlo:2 (change k for more)  
+Monte Carlo:2 (change m for more, parfor) 
 
 beta scenario： BATA.q（25%）  
 IF YOU WANT TO RUN DIFFERENT BETA SCENARIOS (eg.50%):  
@@ -31,7 +31,7 @@ betas -> beta for different regions with different scenarios
 -------------------------
 OUTPUT FILES :  
 result_q -> place for the population distribution from 2020 to 2100 under different SSP with the beta(q:25%)
-
+	    
 -------------------------
 # Urban land Data
 # Reference
