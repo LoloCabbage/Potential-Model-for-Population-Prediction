@@ -26,7 +26,7 @@ urban_land -> urban land distribution from 2020 to 2100
 		  0 for non-urban areas, 1 for urban areas  
 		  a population image of 2020 under each region file  
 FILE STRUCTURE:
-31 REGION NAME-SCENARIOS-DECADES-.TIF 
+31 REGION NAME-SSP SCENARIOS/BASE POPULATION (.TIF) -DECADES-.TIF 
 
 betas -> beta for different regions with different scenarios  
 	   (q:25%,h:50%,t:75%)
