@@ -1,5 +1,5 @@
 function [total_pop,pop_combine] = predict_pop(beta,total_con,pop_cell_t1)
-    total_pop = 0;
+    total_pop = 0; % initial count for a region, start from 0
     for i = 1:length(pop_cell_t1)
         [GridNum,~] = size(pop_cell_t1{i});
         points_xy = pop_cell_t1{i}(:,1:2);
