@@ -2,8 +2,8 @@
 addpath("functions/");
 dir_info = dir('urban_land');
 dir_info(1:2) = []; %remove the "."&".." FILE
-scenarios = readtable('urban_land.csv');
-BETA = readtable('betas.csv');
+scenarios = readtable('urban_land.csv'); % constraint for each scenario
+BETA = readtable('betas.csv'); 
 resultfolder = 'result_t';
 
 %% run the model
